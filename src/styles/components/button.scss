@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  text-decoration: none;
+  color: #363636;
+  background-image: url(../assets/images/Chevron.png);
+  background-position: 88% 15px;
+  background-repeat: no-repeat;
+  transition: .3s;
+
+  &:hover {
+    background-color: #D8D8D8;
+    background-position: 92% 15px;
+  }
+}

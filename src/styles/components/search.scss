@@ -1,0 +1,28 @@
+.search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 45px;
+
+  &__label {
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: black;
+  }
+
+  &__input {
+    padding: 10px;
+    width: 420px;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+    @media (max-width: 768px) {
+      width: auto;
+    }
+  }
+}
